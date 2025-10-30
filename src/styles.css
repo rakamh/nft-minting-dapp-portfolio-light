@@ -1,0 +1,39 @@
+:root{
+  --bg: #f7f7fb;
+  --card: #ffffff;
+  --muted: #6b7280;
+  --accent: #2563eb;
+  --heading: #0f172a;
+  --text: #0f172a;
+  --success: #059669;
+}
+
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{
+  margin:0;
+  font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background:var(--bg);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.container{max-width:900px;margin:40px auto;padding:20px}
+.header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}
+.title{font-size:22px;font-weight:700;color:var(--heading)}
+.card{background:var(--card);border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(16,24,40,0.06);border:1px solid rgba(15,23,42,0.04)}
+.form-row{margin-bottom:12px}
+.input, .file-input, .button{
+  width:100%;padding:10px;border-radius:8px;border:1px solid rgba(15,23,42,0.08);font-size:14px;
+}
+.file-input{padding:6px}
+.button{background:var(--accent);color:white;border:none;cursor:pointer;font-weight:600}
+.button:disabled{opacity:0.6;cursor:not-allowed}
+.preview{margin-top:12px;display:flex;gap:12px;flex-wrap:wrap}
+.preview img{max-width:220px;border-radius:8px;border:1px solid rgba(15,23,42,0.06)}
+
+.meta{margin-top:12px;font-size:13px;color:var(--muted)}
+.toast{margin-top:12px;padding:10px;border-radius:8px;background:rgba(16,185,129,0.08);color:var(--success);font-weight:600}
+.small{font-size:13px;color:var(--muted)}
+.link{color:var(--accent);text-decoration:underline;cursor:pointer}
