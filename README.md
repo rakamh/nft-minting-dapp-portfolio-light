@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # nft-minting-dapp (Portfolio Demo)
 
 Light-mode frontend demo for NFT Minting dApp designed for portfolio use.
@@ -16,3 +17,7 @@ npm run dev
 ## Notes
 - This project is intentionally frontend-only demo for showcasing in your portfolio.
 - If you want real minting, I can add IPFS upload (Pinata) and smart contract + deploy guide to Sepolia.
+=======
+# nft-minting-dapp-portfolio-light
+Frontend sederhana untuk NFT Minting dApp (React + Tailwind + Light Mode + Preview Minting)
+>>>>>>> a767c5c23e0f1859498dde103e9655c192af702f
